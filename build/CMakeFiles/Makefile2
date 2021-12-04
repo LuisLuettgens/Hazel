@@ -167,12 +167,12 @@ Sandbox/src/clean: Sandbox/src/CMakeFiles/SandboxApp.dir/clean
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all:
 	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/depend
 	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=1,2 "Built target HazelLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=1,2,3 "Built target HazelLib"
 .PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
 .PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
@@ -194,12 +194,12 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean:
 Sandbox/src/CMakeFiles/SandboxApp.dir/all: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/depend
 	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=3,4 "Built target SandboxApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=4,5 "Built target SandboxApp"
 .PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/all
 
 # Build rule for subdir invocation for target.
 Sandbox/src/CMakeFiles/SandboxApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/CMakeFiles/SandboxApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
 .PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/rule

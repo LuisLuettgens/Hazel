@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src 
+CXX_INCLUDES = -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include 
 

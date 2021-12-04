@@ -1,4 +1,4 @@
-# Notice name prefix of this variable, set by CMake according
-# to value given with "project()" in the root CMakeLists.txt.
-include_directories(${PROJECT_SOURCE_DIR}/Hazel)
-add_library(HazelLib Application.cpp)
+
+include_directories(${PROJECT_SOURCE_DIR}/Hazel/vendor/spdlog/include)
+
+add_library(HazelLib Application.cpp Log.cpp)

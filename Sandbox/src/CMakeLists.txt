@@ -1,6 +1,9 @@
 include_directories(${PROJECT_SOURCE_DIR}/Sandbox)
 # I assume you want to use LibProject as a library in MainProject.
-include_directories(${PROJECT_SOURCE_DIR}/Hazel/src/)
+message(${PROJECT_SOURCE_DIR}/Hazel/src)
+include_directories(${PROJECT_SOURCE_DIR}/Hazel/src)
+include_directories(${PROJECT_SOURCE_DIR}/Hazel/vendor/spdlog/include)
+
 link_directories(${PROJECT_SOURCE_DIR}/Hazel/src)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Sandbox/bin)
 
