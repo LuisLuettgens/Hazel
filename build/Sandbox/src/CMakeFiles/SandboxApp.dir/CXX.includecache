@@ -9,6 +9,8 @@
 ../Hazel/src/Hazel.h
 ./Hazel/Application.h
 ../Hazel/src/Hazel/Application.h
+./Hazel/EntryPoint.h
+../Hazel/src/Hazel/EntryPoint.h
 
 ../Hazel/src/Hazel/Application.h
 Core.h
@@ -16,9 +18,9 @@ Core.h
 
 ../Hazel/src/Hazel/Core.h
 
+../Hazel/src/Hazel/EntryPoint.h
+
 /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp
 Hazel.h
 /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/Hazel.h
-stdio.h
--
 

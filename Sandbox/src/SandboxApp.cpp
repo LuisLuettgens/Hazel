@@ -16,10 +16,7 @@ class Sandbox : public Hazel::Application
         }
     };
 
-
-int main()
+Hazel::Application* Hazel::CreateApplication()
 {
-    Sandbox* sandbox = new Sandbox();
-    sandbox->Run();
-    delete sandbox;
+    return new Sandbox();
 }

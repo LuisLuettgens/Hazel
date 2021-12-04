@@ -5,4 +5,5 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o
  ../Hazel/src/Hazel.h
  ../Hazel/src/Hazel/Application.h
  ../Hazel/src/Hazel/Core.h
+ ../Hazel/src/Hazel/EntryPoint.h
  /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp
