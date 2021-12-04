@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp
+Application.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
+Core.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+

@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../Hazel/CMakeLists.txt"
   "../Hazel/src/CMakeLists.txt"
+  "../Hazel/src/Hazel/CMakeLists.txt"
   "../Sandbox/CMakeLists.txt"
   "../Sandbox/src/CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
@@ -47,12 +48,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Hazel/src/Hazel/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Sandbox/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Hazel/src/CMakeFiles/HazelLib.dir/DependInfo.cmake"
-  "Sandbox/src/CMakeFiles/Application.dir/DependInfo.cmake"
+  "Hazel/src/Hazel/CMakeFiles/HazelLib.dir/DependInfo.cmake"
+  "Sandbox/src/CMakeFiles/SandboxApp.dir/DependInfo.cmake"
   )

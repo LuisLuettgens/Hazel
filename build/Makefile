@@ -142,21 +142,21 @@ HazelLib: cmake_check_build_system
 
 # fast build rule for target.
 HazelLib/fast:
-	$(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/build
+	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
 .PHONY : HazelLib/fast
 
 #=============================================================================
-# Target rules for targets named Application
+# Target rules for targets named SandboxApp
 
 # Build rule for target.
-Application: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Application
-.PHONY : Application
+SandboxApp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SandboxApp
+.PHONY : SandboxApp
 
 # fast build rule for target.
-Application/fast:
-	$(MAKE) -f Sandbox/src/CMakeFiles/Application.dir/build.make Sandbox/src/CMakeFiles/Application.dir/build
-.PHONY : Application/fast
+SandboxApp/fast:
+	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/build
+.PHONY : SandboxApp/fast
 
 # Help Target
 help:
@@ -169,7 +169,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... package"
 	@echo "... HazelLib"
-	@echo "... Application"
+	@echo "... SandboxApp"
 .PHONY : help
 
 

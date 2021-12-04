@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -100,16 +89,27 @@ package/fast: package
 
 .PHONY : package/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles /home/luis/Documents/vscode_projects/Hazel/build/Sandbox/src/CMakeFiles/progress.marks
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/all
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/progress.marks
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/clean
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/clean
 .PHONY : clean
 
 # The main clean target
@@ -119,12 +119,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/preinstall
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/preinstall
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -133,46 +133,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Sandbox/src/CMakeFiles/SandboxApp.dir/rule:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/CMakeFiles/SandboxApp.dir/rule
-.PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/rule
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
+.PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 
 # Convenience name for target.
-SandboxApp: Sandbox/src/CMakeFiles/SandboxApp.dir/rule
+HazelLib: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 
-.PHONY : SandboxApp
+.PHONY : HazelLib
 
 # fast build rule for target.
-SandboxApp/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/build
-.PHONY : SandboxApp/fast
+HazelLib/fast:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
+.PHONY : HazelLib/fast
 
-SandboxApp.o: SandboxApp.cpp.o
+Application.o: Application.cpp.o
 
-.PHONY : SandboxApp.o
+.PHONY : Application.o
 
 # target to build an object file
-SandboxApp.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o
-.PHONY : SandboxApp.cpp.o
+Application.cpp.o:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o
+.PHONY : Application.cpp.o
 
-SandboxApp.i: SandboxApp.cpp.i
+Application.i: Application.cpp.i
 
-.PHONY : SandboxApp.i
+.PHONY : Application.i
 
 # target to preprocess a source file
-SandboxApp.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.i
-.PHONY : SandboxApp.cpp.i
+Application.cpp.i:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.i
+.PHONY : Application.cpp.i
 
-SandboxApp.s: SandboxApp.cpp.s
+Application.s: Application.cpp.s
 
-.PHONY : SandboxApp.s
+.PHONY : Application.s
 
 # target to generate assembly for a file
-SandboxApp.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.s
-.PHONY : SandboxApp.cpp.s
+Application.cpp.s:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.s
+.PHONY : Application.cpp.s
 
 # Help Target
 help:
@@ -180,14 +180,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... package"
-	@echo "... SandboxApp"
-	@echo "... SandboxApp.o"
-	@echo "... SandboxApp.i"
-	@echo "... SandboxApp.s"
+	@echo "... edit_cache"
+	@echo "... HazelLib"
+	@echo "... Application.o"
+	@echo "... Application.i"
+	@echo "... Application.s"
 .PHONY : help
 
 

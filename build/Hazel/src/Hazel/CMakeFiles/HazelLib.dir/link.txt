@@ -1,0 +1,2 @@
+/bin/ar qc libHazelLib.a  CMakeFiles/HazelLib.dir/Application.cpp.o
+/bin/ranlib libHazelLib.a

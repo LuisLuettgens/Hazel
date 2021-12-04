@@ -56,6 +56,17 @@ CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -89,17 +100,6 @@ package/fast: package
 
 .PHONY : package/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/CMakeFiles/progress.marks
@@ -132,62 +132,16 @@ depend:
 	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-Hazel/src/CMakeFiles/HazelLib.dir/rule:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/CMakeFiles/HazelLib.dir/rule
-.PHONY : Hazel/src/CMakeFiles/HazelLib.dir/rule
-
-# Convenience name for target.
-HazelLib: Hazel/src/CMakeFiles/HazelLib.dir/rule
-
-.PHONY : HazelLib
-
-# fast build rule for target.
-HazelLib/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/build
-.PHONY : HazelLib/fast
-
-Test.o: Test.cpp.o
-
-.PHONY : Test.o
-
-# target to build an object file
-Test.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/Test.cpp.o
-.PHONY : Test.cpp.o
-
-Test.i: Test.cpp.i
-
-.PHONY : Test.i
-
-# target to preprocess a source file
-Test.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/Test.cpp.i
-.PHONY : Test.cpp.i
-
-Test.s: Test.cpp.s
-
-.PHONY : Test.s
-
-# target to generate assembly for a file
-Test.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/Test.cpp.s
-.PHONY : Test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... package"
-	@echo "... edit_cache"
-	@echo "... HazelLib"
-	@echo "... Test.o"
-	@echo "... Test.i"
-	@echo "... Test.s"
 .PHONY : help
 
 

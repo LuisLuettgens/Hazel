@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						3
+						4
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -34,23 +34,37 @@
 				},
 				{
 					"build" : "Hazel/src",
+					"childIndexes" : 
+					[
+						3
+					],
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 0,
-					"source" : "Hazel/src",
+					"source" : "Hazel/src"
+				},
+				{
+					"build" : "Hazel/src/Hazel",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Hazel/src/Hazel",
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				},
 				{
 					"build" : "Sandbox",
 					"childIndexes" : 
 					[
-						4
+						5
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -66,12 +80,12 @@
 					{
 						"string" : "3.0.0"
 					},
-					"parentIndex" : 3,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "Sandbox/src",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				}
 			],
@@ -85,7 +99,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "Hazel",
 					"targetIndexes" : 
@@ -98,17 +113,17 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 4,
-					"id" : "Application::@fb0ec3b4a9b6261bc287",
-					"jsonFile" : "target-Application-Debug-b433fb78d30efe3764eb.json",
-					"name" : "Application",
+					"directoryIndex" : 3,
+					"id" : "HazelLib::@49eb673796c2e3dc8c81",
+					"jsonFile" : "target-HazelLib-Debug-10ce589b7fd571aa264c.json",
+					"name" : "HazelLib",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 2,
-					"id" : "HazelLib::@af56c6ed6f5b366e9a82",
-					"jsonFile" : "target-HazelLib-Debug-3a3114c3e41b08853982.json",
-					"name" : "HazelLib",
+					"directoryIndex" : 5,
+					"id" : "SandboxApp::@fb0ec3b4a9b6261bc287",
+					"jsonFile" : "target-SandboxApp-Debug-a7abe16c7cd722811b68.json",
+					"name" : "SandboxApp",
 					"projectIndex" : 0
 				}
 			]

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Hazel/src/libHazelLib.a"
+			"path" : "Hazel/src/Hazel/libHazelLib.a"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"Hazel/src/CMakeLists.txt"
+			"Hazel/src/Hazel/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -60,13 +60,13 @@
 			]
 		}
 	],
-	"id" : "HazelLib::@af56c6ed6f5b366e9a82",
+	"id" : "HazelLib::@49eb673796c2e3dc8c81",
 	"name" : "HazelLib",
 	"nameOnDisk" : "libHazelLib.a",
 	"paths" : 
 	{
-		"build" : "Hazel/src",
-		"source" : "Hazel/src"
+		"build" : "Hazel/src/Hazel",
+		"source" : "Hazel/src/Hazel"
 	},
 	"sourceGroups" : 
 	[
@@ -83,7 +83,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Hazel/src/Test.cpp",
+			"path" : "Hazel/src/Hazel/Application.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

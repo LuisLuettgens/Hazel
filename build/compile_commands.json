@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel  -g   -o CMakeFiles/HazelLib.dir/Test.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Test.cpp",
-  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Test.cpp"
+  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel  -g   -o CMakeFiles/HazelLib.dir/Application.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp",
+  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Sandbox/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel  -g   -o CMakeFiles/Application.dir/Application.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/Application.cpp",
-  "file": "/home/luis/Documents/vscode_projects/Hazel/Sandbox/src/Application.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src  -g   -o CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp",
+  "file": "/home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp"
 }
 ]

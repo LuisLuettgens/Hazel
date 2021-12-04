@@ -92,19 +92,37 @@ Hazel/clean: Hazel/src/clean
 # Directory level rules for directory Hazel/src
 
 # Recursive "all" directory target.
-Hazel/src/all: Hazel/src/CMakeFiles/HazelLib.dir/all
+Hazel/src/all: Hazel/src/Hazel/all
 
 .PHONY : Hazel/src/all
 
 # Recursive "preinstall" directory target.
-Hazel/src/preinstall:
+Hazel/src/preinstall: Hazel/src/Hazel/preinstall
 
 .PHONY : Hazel/src/preinstall
 
 # Recursive "clean" directory target.
-Hazel/src/clean: Hazel/src/CMakeFiles/HazelLib.dir/clean
+Hazel/src/clean: Hazel/src/Hazel/clean
 
 .PHONY : Hazel/src/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/src/Hazel
+
+# Recursive "all" directory target.
+Hazel/src/Hazel/all: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
+
+.PHONY : Hazel/src/Hazel/all
+
+# Recursive "preinstall" directory target.
+Hazel/src/Hazel/preinstall:
+
+.PHONY : Hazel/src/Hazel/preinstall
+
+# Recursive "clean" directory target.
+Hazel/src/Hazel/clean: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean
+
+.PHONY : Hazel/src/Hazel/clean
 
 #=============================================================================
 # Directory level rules for directory Sandbox
@@ -128,7 +146,7 @@ Sandbox/clean: Sandbox/src/clean
 # Directory level rules for directory Sandbox/src
 
 # Recursive "all" directory target.
-Sandbox/src/all: Sandbox/src/CMakeFiles/Application.dir/all
+Sandbox/src/all: Sandbox/src/CMakeFiles/SandboxApp.dir/all
 
 .PHONY : Sandbox/src/all
 
@@ -138,63 +156,63 @@ Sandbox/src/preinstall:
 .PHONY : Sandbox/src/preinstall
 
 # Recursive "clean" directory target.
-Sandbox/src/clean: Sandbox/src/CMakeFiles/Application.dir/clean
+Sandbox/src/clean: Sandbox/src/CMakeFiles/SandboxApp.dir/clean
 
 .PHONY : Sandbox/src/clean
 
 #=============================================================================
-# Target rules for target Hazel/src/CMakeFiles/HazelLib.dir
+# Target rules for target Hazel/src/Hazel/CMakeFiles/HazelLib.dir
 
 # All Build rule for target.
-Hazel/src/CMakeFiles/HazelLib.dir/all:
-	$(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/depend
-	$(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=3,4 "Built target HazelLib"
-.PHONY : Hazel/src/CMakeFiles/HazelLib.dir/all
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all:
+	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/depend
+	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=1,2 "Built target HazelLib"
+.PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 
 # Build rule for subdir invocation for target.
-Hazel/src/CMakeFiles/HazelLib.dir/rule: cmake_check_build_system
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 Hazel/src/CMakeFiles/HazelLib.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
-.PHONY : Hazel/src/CMakeFiles/HazelLib.dir/rule
+.PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 
 # Convenience name for target.
-HazelLib: Hazel/src/CMakeFiles/HazelLib.dir/rule
+HazelLib: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 
 .PHONY : HazelLib
 
 # clean rule for target.
-Hazel/src/CMakeFiles/HazelLib.dir/clean:
-	$(MAKE) -f Hazel/src/CMakeFiles/HazelLib.dir/build.make Hazel/src/CMakeFiles/HazelLib.dir/clean
-.PHONY : Hazel/src/CMakeFiles/HazelLib.dir/clean
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean:
+	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean
+.PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean
 
 #=============================================================================
-# Target rules for target Sandbox/src/CMakeFiles/Application.dir
+# Target rules for target Sandbox/src/CMakeFiles/SandboxApp.dir
 
 # All Build rule for target.
-Sandbox/src/CMakeFiles/Application.dir/all: Hazel/src/CMakeFiles/HazelLib.dir/all
-	$(MAKE) -f Sandbox/src/CMakeFiles/Application.dir/build.make Sandbox/src/CMakeFiles/Application.dir/depend
-	$(MAKE) -f Sandbox/src/CMakeFiles/Application.dir/build.make Sandbox/src/CMakeFiles/Application.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=1,2 "Built target Application"
-.PHONY : Sandbox/src/CMakeFiles/Application.dir/all
+Sandbox/src/CMakeFiles/SandboxApp.dir/all: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
+	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/depend
+	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=3,4 "Built target SandboxApp"
+.PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/all
 
 # Build rule for subdir invocation for target.
-Sandbox/src/CMakeFiles/Application.dir/rule: cmake_check_build_system
+Sandbox/src/CMakeFiles/SandboxApp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/CMakeFiles/Application.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/CMakeFiles/SandboxApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
-.PHONY : Sandbox/src/CMakeFiles/Application.dir/rule
+.PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/rule
 
 # Convenience name for target.
-Application: Sandbox/src/CMakeFiles/Application.dir/rule
+SandboxApp: Sandbox/src/CMakeFiles/SandboxApp.dir/rule
 
-.PHONY : Application
+.PHONY : SandboxApp
 
 # clean rule for target.
-Sandbox/src/CMakeFiles/Application.dir/clean:
-	$(MAKE) -f Sandbox/src/CMakeFiles/Application.dir/build.make Sandbox/src/CMakeFiles/Application.dir/clean
-.PHONY : Sandbox/src/CMakeFiles/Application.dir/clean
+Sandbox/src/CMakeFiles/SandboxApp.dir/clean:
+	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/clean
+.PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
