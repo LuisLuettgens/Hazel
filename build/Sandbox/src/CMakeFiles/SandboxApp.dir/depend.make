@@ -5,6 +5,7 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Application.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Core.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/EntryPoint.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Events/Event.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Log.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common.h
@@ -29,8 +30,10 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/i
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/xchar.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/fmt/xchar.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/formatter.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/logger-inl.h

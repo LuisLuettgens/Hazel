@@ -328,6 +328,12 @@ xchar.h
 format-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
+../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+ostream
+-
+format.h
+../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+
 ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/xchar.h
 cwchar
 -
@@ -346,6 +352,12 @@ spdlog/fmt/bundled/format.h
 fmt/core.h
 -
 fmt/format.h
+-
+
+../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
+spdlog/fmt/bundled/ostream.h
+-
+fmt/ostream.h
 -
 
 ../Hazel/vendor/spdlog/include/spdlog/fmt/xchar.h
@@ -490,24 +502,6 @@ spdlog/formatter.h
 sink-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/sinks/sink-inl.h
 
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
-spdlog/sinks/stdout_color_sinks.h
--
-spdlog/logger.h
--
-spdlog/common.h
--
-
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
-spdlog/sinks/wincolor_sink.h
--
-spdlog/sinks/ansicolor_sink.h
--
-spdlog/details/synchronous_factory.h
--
-stdout_color_sinks-inl.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
-
 ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
@@ -576,13 +570,33 @@ spdlog-inl.h
 
 ../Hazel/vendor/spdlog/include/spdlog/version.h
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
-
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp
+Application.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
+Events/ApplicationEvent.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
 Log.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
-spdlog/sinks/stdout_color_sinks.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/spdlog/sinks/stdout_color_sinks.h
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
+Core.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+Events/Event.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
+Event.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+sstream
+-
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+string
+-
+functional
+-
 
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
 memory
@@ -591,4 +605,6 @@ Core.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
 spdlog/spdlog.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/spdlog/spdlog.h
+spdlog/fmt/ostr.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/spdlog/fmt/ostr.h
 

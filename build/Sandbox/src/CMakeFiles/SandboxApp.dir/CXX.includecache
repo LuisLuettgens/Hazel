@@ -17,10 +17,18 @@ Hazel/EntryPoint.h
 ../Hazel/src/Hazel/Application.h
 Core.h
 ../Hazel/src/Hazel/Core.h
+Events/Event.h
+../Hazel/src/Hazel/Events/Event.h
 
 ../Hazel/src/Hazel/Core.h
 
 ../Hazel/src/Hazel/EntryPoint.h
+
+../Hazel/src/Hazel/Events/Event.h
+string
+-
+functional
+-
 
 ../Hazel/src/Hazel/Log.h
 memory
@@ -29,6 +37,8 @@ Core.h
 ../Hazel/src/Hazel/Core.h
 spdlog/spdlog.h
 ../Hazel/src/Hazel/spdlog/spdlog.h
+spdlog/fmt/ostr.h
+../Hazel/src/Hazel/spdlog/fmt/ostr.h
 
 ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 spdlog/common.h
@@ -352,6 +362,12 @@ xchar.h
 format-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
+../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+ostream
+-
+format.h
+../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+
 ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/xchar.h
 cwchar
 -
@@ -370,6 +386,12 @@ spdlog/fmt/bundled/format.h
 fmt/core.h
 -
 fmt/format.h
+-
+
+../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
+spdlog/fmt/bundled/ostream.h
+-
+fmt/ostream.h
 -
 
 ../Hazel/vendor/spdlog/include/spdlog/fmt/xchar.h
