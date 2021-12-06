@@ -1,17 +1,22 @@
 [
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -o CMakeFiles/HazelLib.dir/Application.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform  -g   -o CMakeFiles/HazelLib.dir/Application.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -o CMakeFiles/HazelLib.dir/Log.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform  -g   -o CMakeFiles/HazelLib.dir/Log.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp"
 },
 {
+  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform  -g   -o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp",
+  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp"
+},
+{
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Sandbox/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -o CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include  -g   -o CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp"
 }
 ]

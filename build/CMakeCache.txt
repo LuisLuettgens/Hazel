@@ -305,6 +305,9 @@ GITCOMMAND:FILEPATH=/usr/bin/git
 //Path to a program.
 HGCOMMAND:FILEPATH=HGCOMMAND-NOTFOUND
 
+//Dependencies for the target
+HazelLib_LIB_DEPENDS:STATIC=general;glfw3.a;general;dl;general;pthread;
+
 //Value Computed by CMake
 Hazel_BINARY_DIR:STATIC=/home/luis/Documents/vscode_projects/Hazel/build
 

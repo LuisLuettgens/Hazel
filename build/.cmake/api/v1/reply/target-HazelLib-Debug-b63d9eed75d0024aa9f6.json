@@ -1,0 +1,115 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Hazel/src/Hazel/libHazelLib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Hazel/src/Hazel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "HazelLib::@49eb673796c2e3dc8c81",
+	"name" : "HazelLib",
+	"nameOnDisk" : "libHazelLib.a",
+	"paths" : 
+	{
+		"build" : "Hazel/src/Hazel",
+		"source" : "Hazel/src/Hazel"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Hazel/src/Hazel/Application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Hazel/src/Hazel/Log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Hazel/src/Platform/LinuxWindow.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

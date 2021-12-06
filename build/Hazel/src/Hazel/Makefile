@@ -201,6 +201,33 @@ Log.cpp.s:
 	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.s
 .PHONY : Log.cpp.s
 
+__/Platform/LinuxWindow.o: __/Platform/LinuxWindow.cpp.o
+
+.PHONY : __/Platform/LinuxWindow.o
+
+# target to build an object file
+__/Platform/LinuxWindow.cpp.o:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
+.PHONY : __/Platform/LinuxWindow.cpp.o
+
+__/Platform/LinuxWindow.i: __/Platform/LinuxWindow.cpp.i
+
+.PHONY : __/Platform/LinuxWindow.i
+
+# target to preprocess a source file
+__/Platform/LinuxWindow.cpp.i:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.i
+.PHONY : __/Platform/LinuxWindow.cpp.i
+
+__/Platform/LinuxWindow.s: __/Platform/LinuxWindow.cpp.s
+
+.PHONY : __/Platform/LinuxWindow.s
+
+# target to generate assembly for a file
+__/Platform/LinuxWindow.cpp.s:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s
+.PHONY : __/Platform/LinuxWindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -218,6 +245,9 @@ help:
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"
+	@echo "... __/Platform/LinuxWindow.o"
+	@echo "... __/Platform/LinuxWindow.i"
+	@echo "... __/Platform/LinuxWindow.s"
 .PHONY : help
 
 

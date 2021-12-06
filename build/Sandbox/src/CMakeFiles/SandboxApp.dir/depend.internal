@@ -8,6 +8,7 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o
  ../Hazel/src/Hazel/EntryPoint.h
  ../Hazel/src/Hazel/Events/Event.h
  ../Hazel/src/Hazel/Log.h
+ ../Hazel/src/Hazel/Window.h
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
  ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

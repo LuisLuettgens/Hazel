@@ -6,12 +6,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o"
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o"
+  "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/vendor/spdlog/include"
+  "../Hazel/vendor/GLFW/include"
+  "../Hazel/src/Platform"
   )
 
 # Targets to which this target links.

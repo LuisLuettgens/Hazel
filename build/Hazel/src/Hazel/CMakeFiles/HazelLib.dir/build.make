@@ -83,19 +83,34 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HazelLib.dir/Log.cpp.s"
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp -o CMakeFiles/HazelLib.dir/Log.cpp.s
 
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/flags.make
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Platform/LinuxWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.i"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp > CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.i
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp -o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s
+
 # Object files for target HazelLib
 HazelLib_OBJECTS = \
 "CMakeFiles/HazelLib.dir/Application.cpp.o" \
-"CMakeFiles/HazelLib.dir/Log.cpp.o"
+"CMakeFiles/HazelLib.dir/Log.cpp.o" \
+"CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o"
 
 # External object files for target HazelLib
 HazelLib_EXTERNAL_OBJECTS =
 
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o
+Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libHazelLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libHazelLib.a"
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && $(CMAKE_COMMAND) -P CMakeFiles/HazelLib.dir/cmake_clean_target.cmake
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HazelLib.dir/link.txt --verbose=$(VERBOSE)
 
