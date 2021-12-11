@@ -6,50 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../Hazel/vendor/GLFW/include/GLFW/glfw3.h
-stddef.h
--
-stdint.h
--
-vulkan/vulkan.h
--
-GLES/gl.h
--
-GLES/glext.h
--
-GLES2/gl2.h
--
-GLES2/gl2ext.h
--
-GLES3/gl3.h
--
-GLES2/gl2ext.h
--
-GLES3/gl31.h
--
-GLES2/gl2ext.h
--
-GLES3/gl32.h
--
-GLES2/gl2ext.h
--
-OpenGL/gl3.h
--
-OpenGL/gl3ext.h
--
-GL/glcorearb.h
--
-OpenGL/gl.h
--
-OpenGL/glu.h
--
-GL/gl.h
--
-GL/glext.h
--
-GL/glu.h
--
-
 ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 spdlog/common.h
 -
@@ -546,24 +502,6 @@ spdlog/formatter.h
 sink-inl.h
 ../Hazel/vendor/spdlog/include/spdlog/sinks/sink-inl.h
 
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
-spdlog/sinks/stdout_color_sinks.h
--
-spdlog/logger.h
--
-spdlog/common.h
--
-
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
-spdlog/sinks/wincolor_sink.h
--
-spdlog/sinks/ansicolor_sink.h
--
-spdlog/details/synchronous_factory.h
--
-stdout_color_sinks-inl.h
-../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
-
 ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
@@ -635,8 +573,6 @@ spdlog-inl.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp
 Application.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
-Events/ApplicationEvent.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
 Log.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
 
@@ -649,6 +585,8 @@ Window.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Window.h
 memory
 -
+Events/ApplicationEvent.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
 
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
 
@@ -663,12 +601,6 @@ string
 -
 functional
 -
-
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp
-Log.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
-spdlog/sinks/stdout_color_sinks.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/spdlog/sinks/stdout_color_sinks.h
 
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
 memory
@@ -685,16 +617,4 @@ Core.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
 Events/Event.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
-
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp
-LinuxWindow.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.h
-../Hazel/Log.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
-
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.h
-../Hazel/Window.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Window.h
-GLFW/glfw3.h
--
 

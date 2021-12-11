@@ -147,7 +147,10 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
  ../Hazel/vendor/spdlog/include/spdlog/version.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/KeyEvent.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/MouseEvent.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Window.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp

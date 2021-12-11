@@ -146,7 +146,10 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/version.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Core.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Events/Event.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Events/KeyEvent.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Events/MouseEvent.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Log.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Hazel/Window.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/src/Platform/LinuxWindow.cpp

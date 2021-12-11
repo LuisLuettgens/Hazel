@@ -5,6 +5,7 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Application.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Core.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/EntryPoint.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Events/Event.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Log.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Window.h

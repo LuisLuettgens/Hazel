@@ -40,9 +40,9 @@ namespace Hazel
         private:
             int m_RepeatCount;
 
-    }
+    };
 
-     class KeyReleasedEvent : public KeyEvent
+    class KeyReleasedEvent : public KeyEvent
     {
         public:
             KeyReleasedEvent(int keycode)
@@ -56,5 +56,5 @@ namespace Hazel
             }
 
             EVENT_CLASS_TYPE(KeyPressed)
-    }
+    };
 }
