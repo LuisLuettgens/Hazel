@@ -1,6 +1,4 @@
 include_directories(${PROJECT_SOURCE_DIR}/Sandbox)
-# I assume you want to use LibProject as a library in MainProject.
-message(${PROJECT_SOURCE_DIR}/Hazel/src)
 include_directories(${PROJECT_SOURCE_DIR}/Hazel/src)
 include_directories(${PROJECT_SOURCE_DIR}/Hazel/vendor/spdlog/include)
 include_directories(${PROJECT_SOURCE_DIR}/Hazel/vendor/GLFW/include)

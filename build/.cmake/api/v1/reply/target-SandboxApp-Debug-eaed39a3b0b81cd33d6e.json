@@ -27,19 +27,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 9,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -51,19 +51,19 @@
 			{
 				"command" : 3,
 				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
 				"line" : 4,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 5,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -94,6 +94,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include"
 				}
 			],
 			"language" : "CXX",
@@ -108,6 +112,14 @@
 		{
 			"backtrace" : 3,
 			"id" : "HazelLib::@49eb673796c2e3dc8c81"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glad::@28621d193bc9ebffc4a1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "imgui::@f09b917f602c87090579"
 		}
 	],
 	"id" : "SandboxApp::@fb0ec3b4a9b6261bc287",
@@ -138,19 +150,23 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-Wl,-Bstatic",
+				"fragment" : "-lglfw",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lglfw3",
+				"fragment" : "../../Hazel/vendor/GLAD/src/libglad.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-Wl,-Bdynamic",
+				"fragment" : "../../Hazel/vendor/imgui/libimgui.a",
 				"role" : "libraries"
 			},
 			{
 				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
 				"role" : "libraries"
 			},
 			{

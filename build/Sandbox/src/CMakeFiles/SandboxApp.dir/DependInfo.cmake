@@ -14,11 +14,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/src"
   "../Hazel/vendor/spdlog/include"
   "../Hazel/vendor/GLFW/include"
+  "../Hazel/vendor/GLAD/src/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/DependInfo.cmake"
+  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -11,6 +11,10 @@ Hazel/Application.h
 ../Hazel/src/Hazel/Application.h
 Hazel/Log.h
 ../Hazel/src/Hazel/Log.h
+Hazel/Layer.h
+../Hazel/src/Hazel/Layer.h
+Hazel/ImGui/ImGuiLayer.h
+../Hazel/src/Hazel/ImGui/ImGuiLayer.h
 Hazel/EntryPoint.h
 ../Hazel/src/Hazel/EntryPoint.h
 
@@ -21,10 +25,12 @@ Events/Event.h
 ../Hazel/src/Hazel/Events/Event.h
 Window.h
 ../Hazel/src/Hazel/Window.h
-memory
--
 Events/ApplicationEvent.h
 ../Hazel/src/Hazel/Events/ApplicationEvent.h
+LayerStack.h
+../Hazel/src/Hazel/LayerStack.h
+memory
+-
 
 ../Hazel/src/Hazel/Core.h
 
@@ -40,6 +46,24 @@ sstream
 string
 -
 functional
+-
+
+../Hazel/src/Hazel/ImGui/ImGuiLayer.h
+../Layer.h
+../Hazel/src/Hazel/Layer.h
+
+../Hazel/src/Hazel/Layer.h
+Core.h
+../Hazel/src/Hazel/Core.h
+Events/Event.h
+../Hazel/src/Hazel/Events/Event.h
+
+../Hazel/src/Hazel/LayerStack.h
+Core.h
+../Hazel/src/Hazel/Core.h
+Layer.h
+../Hazel/src/Hazel/Layer.h
+vector
 -
 
 ../Hazel/src/Hazel/Log.h

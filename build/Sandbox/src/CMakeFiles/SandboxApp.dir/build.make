@@ -80,6 +80,8 @@ SandboxApp_EXTERNAL_OBJECTS =
 ../Sandbox/bin/SandboxApp: Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o
 ../Sandbox/bin/SandboxApp: Sandbox/src/CMakeFiles/SandboxApp.dir/build.make
 ../Sandbox/bin/SandboxApp: Hazel/src/Hazel/libHazelLib.a
+../Sandbox/bin/SandboxApp: Hazel/vendor/GLAD/src/libglad.a
+../Sandbox/bin/SandboxApp: Hazel/vendor/imgui/libimgui.a
 ../Sandbox/bin/SandboxApp: Sandbox/src/CMakeFiles/SandboxApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../Sandbox/bin/SandboxApp"
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Sandbox/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SandboxApp.dir/link.txt --verbose=$(VERBOSE)

@@ -96,11 +96,53 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s"
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp -o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s
 
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/flags.make
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/ImGui/ImGuiLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.i"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp > CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.i
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.s"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp -o CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.s
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/flags.make
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o: ../Hazel/src/Hazel/Layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HazelLib.dir/Layer.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HazelLib.dir/Layer.cpp.i"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp > CMakeFiles/HazelLib.dir/Layer.cpp.i
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HazelLib.dir/Layer.cpp.s"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp -o CMakeFiles/HazelLib.dir/Layer.cpp.s
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/flags.make
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o: ../Hazel/src/Hazel/LayerStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HazelLib.dir/LayerStack.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HazelLib.dir/LayerStack.cpp.i"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp > CMakeFiles/HazelLib.dir/LayerStack.cpp.i
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HazelLib.dir/LayerStack.cpp.s"
+	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp -o CMakeFiles/HazelLib.dir/LayerStack.cpp.s
+
 # Object files for target HazelLib
 HazelLib_OBJECTS = \
 "CMakeFiles/HazelLib.dir/Application.cpp.o" \
 "CMakeFiles/HazelLib.dir/Log.cpp.o" \
-"CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o"
+"CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o" \
+"CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o" \
+"CMakeFiles/HazelLib.dir/Layer.cpp.o" \
+"CMakeFiles/HazelLib.dir/LayerStack.cpp.o"
 
 # External object files for target HazelLib
 HazelLib_EXTERNAL_OBJECTS =
@@ -108,9 +150,12 @@ HazelLib_EXTERNAL_OBJECTS =
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
+Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o
+Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o
+Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make
 Hazel/src/Hazel/libHazelLib.a: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libHazelLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libHazelLib.a"
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && $(CMAKE_COMMAND) -P CMakeFiles/HazelLib.dir/cmake_clean_target.cmake
 	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HazelLib.dir/link.txt --verbose=$(VERBOSE)
 

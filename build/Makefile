@@ -146,6 +146,45 @@ HazelLib/fast:
 .PHONY : HazelLib/fast
 
 #=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) -f Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/build.make Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
 # Target rules for targets named SandboxApp
 
 # Build rule for target.
@@ -169,6 +208,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... package"
 	@echo "... HazelLib"
+	@echo "... glad"
+	@echo "... imgui"
+	@echo "... spdlog"
 	@echo "... SandboxApp"
 .PHONY : help
 

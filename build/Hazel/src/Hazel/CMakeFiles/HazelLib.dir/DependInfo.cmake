@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o"
+  "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o"
+  "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o"
+  "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o"
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o"
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o"
   )
@@ -14,11 +17,20 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/vendor/spdlog/include"
   "../Hazel/vendor/GLFW/include"
+  "../Hazel/vendor/GLAD/include"
+  "../Hazel/vendor/imgui"
   "../Hazel/src/Platform"
+  "../Hazel/src"
+  "../Hazel/src/Hazel"
+  "../Hazel/src/ImGui"
+  "../Hazel/src/Platform/OpenGL"
+  "../Hazel/vendor/GLAD/src/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../Hazel/vendor/GLAD/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../Hazel/vendor/GLAD/include/glad/glad.h
+KHR/khrplatform.h
+-
+
 ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 spdlog/common.h
 -
@@ -575,6 +587,8 @@ Application.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
 Log.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
+glad/glad.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/glad/glad.h
 
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
 Core.h
@@ -583,10 +597,12 @@ Events/Event.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
 Window.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Window.h
-memory
--
 Events/ApplicationEvent.h
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
+LayerStack.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.h
+memory
+-
 
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
 
@@ -600,6 +616,20 @@ sstream
 string
 -
 functional
+-
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.h
+Core.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+Events/Event.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.h
+Core.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+Layer.h
+/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.h
+vector
 -
 
 /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h

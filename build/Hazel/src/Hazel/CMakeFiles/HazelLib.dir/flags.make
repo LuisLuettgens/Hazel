@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform 
+CXX_INCLUDES = -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include 
 

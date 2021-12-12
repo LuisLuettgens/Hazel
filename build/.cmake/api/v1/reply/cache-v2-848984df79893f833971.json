@@ -614,6 +614,54 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREADS_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthreads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthread"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include pthread.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -624,6 +672,198 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/home/luis/Documents/vscode_projects/Hazel"
+		},
+		{
+			"name" : "CMAKE_INSTALL_BINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "User executables (bin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "bin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATADIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data (DATAROOTDIR)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATAROOTDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data root (share)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "share"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DOCDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Documentation root (DATAROOTDIR/doc/PROJECT_NAME)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files (include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_INFODIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Info documentation (DATAROOTDIR/info)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Object code libraries (lib)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "lib"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBEXECDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Program executables (libexec)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "libexec"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Locale-dependent data (DATAROOTDIR/locale)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable single-machine data (var)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "var"
+		},
+		{
+			"name" : "CMAKE_INSTALL_MANDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Man documentation (DATAROOTDIR/man)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files for non-gcc (/usr/include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -638,6 +878,54 @@
 			"value" : "/usr/local"
 		},
 		{
+			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Run-time variable data (LOCALSTATEDIR/run)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_SBINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "System admin executables (sbin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "sbin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SHAREDSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable architecture-independent data (com)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "com"
+		},
+		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
 			"properties" : 
 			[
@@ -648,6 +936,22 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SYSCONFDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only single-machine data (etc)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "etc"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -787,7 +1091,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1578,6 +1882,18 @@
 			"value" : "1500"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
 			"name" : "GITCOMMAND",
 			"properties" : 
 			[
@@ -1592,6 +1908,30 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/bin/git"
+		},
+		{
+			"name" : "Glad_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src"
+		},
+		{
+			"name" : "Glad_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src"
 		},
 		{
 			"name" : "HGCOMMAND",
@@ -1619,7 +1959,31 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;glfw3.a;general;dl;general;pthread;"
+			"value" : "general;glfw;general;glad;general;imgui;general;dl;general;GL;general;pthread;"
+		},
+		{
+			"name" : "HazelLibrary_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel"
+		},
+		{
+			"name" : "HazelLibrary_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel"
 		},
 		{
 			"name" : "Hazel_BINARY_DIR",
@@ -1758,6 +2122,294 @@
 			"value" : "SLURM_SRUN_COMMAND-NOTFOUND"
 		},
 		{
+			"name" : "SPDLOG_BUILD_ALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build all artifacts"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_BENCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build benchmarks (Requires https://github.com/google/benchmark.git to be installed)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_EXAMPLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build example"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_EXAMPLE_HO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build header only example"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_SHARED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build shared library"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_TESTS_HO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build tests using the header only version"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_WARNINGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable compiler warnings"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_CLOCK_COARSE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use CLOCK_REALTIME_COARSE instead of the regular clock,"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_DISABLE_DEFAULT_LOGGER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Disable default logger creation"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_ENABLE_PCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build static or shared library using precompiled header to speed up compilation time"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_FMT_EXTERNAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use external fmt library instead of bundled"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_FMT_EXTERNAL_HO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use external fmt header-only library instead of bundled"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_INSTALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate the install target"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_ATOMIC_LEVELS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "prevent spdlog from using of std::atomic log levels (use only if your code never modifies log levels concurrently"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_EXCEPTIONS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile with -fno-exceptions. Call abort() on any spdlog exceptions"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_THREAD_ID",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "prevent spdlog from querying the thread id on each log call if thread id is not needed"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_TLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "prevent spdlog from using thread local storage"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_PREVENT_CHILD_FD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Prevent from child processes to inherit log file descriptors"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_SANITIZE_ADDRESS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable address sanitizer in tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_TIDY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "run clang-tidy"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_USE_STD_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use std::format instead of fmt library. No compile-time format string checking."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_WCHAR_FILENAMES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "non supported option"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_WCHAR_SUPPORT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "non supported option"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "SVNCOMMAND",
 			"properties" : 
 			[
@@ -1772,6 +2424,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "SVNCOMMAND-NOTFOUND"
+		},
+		{
+			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CMAKE_INSTALL_PREFIX during last run"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/local"
 		},
 		{
 			"name" : "cmakequickstart_BINARY_DIR",
@@ -1796,6 +2460,54 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/luis/Documents/vscode_projects/Hazel"
+		},
+		{
+			"name" : "imgui_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui"
+		},
+		{
+			"name" : "imgui_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui"
+		},
+		{
+			"name" : "spdlog_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog"
+		},
+		{
+			"name" : "spdlog_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog"
 		}
 	],
 	"kind" : "cache",

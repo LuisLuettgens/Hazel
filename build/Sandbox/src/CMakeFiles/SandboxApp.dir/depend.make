@@ -7,6 +7,9 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Core.
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/EntryPoint.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Events/Event.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/ImGui/ImGuiLayer.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Layer.h
+Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/LayerStack.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Log.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/src/Hazel/Window.h
 Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common-inl.h

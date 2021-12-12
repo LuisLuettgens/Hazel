@@ -174,6 +174,87 @@ Application.cpp.s:
 	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
+ImGui/ImGuiLayer.o: ImGui/ImGuiLayer.cpp.o
+
+.PHONY : ImGui/ImGuiLayer.o
+
+# target to build an object file
+ImGui/ImGuiLayer.cpp.o:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o
+.PHONY : ImGui/ImGuiLayer.cpp.o
+
+ImGui/ImGuiLayer.i: ImGui/ImGuiLayer.cpp.i
+
+.PHONY : ImGui/ImGuiLayer.i
+
+# target to preprocess a source file
+ImGui/ImGuiLayer.cpp.i:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.i
+.PHONY : ImGui/ImGuiLayer.cpp.i
+
+ImGui/ImGuiLayer.s: ImGui/ImGuiLayer.cpp.s
+
+.PHONY : ImGui/ImGuiLayer.s
+
+# target to generate assembly for a file
+ImGui/ImGuiLayer.cpp.s:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.s
+.PHONY : ImGui/ImGuiLayer.cpp.s
+
+Layer.o: Layer.cpp.o
+
+.PHONY : Layer.o
+
+# target to build an object file
+Layer.cpp.o:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o
+.PHONY : Layer.cpp.o
+
+Layer.i: Layer.cpp.i
+
+.PHONY : Layer.i
+
+# target to preprocess a source file
+Layer.cpp.i:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.i
+.PHONY : Layer.cpp.i
+
+Layer.s: Layer.cpp.s
+
+.PHONY : Layer.s
+
+# target to generate assembly for a file
+Layer.cpp.s:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.s
+.PHONY : Layer.cpp.s
+
+LayerStack.o: LayerStack.cpp.o
+
+.PHONY : LayerStack.o
+
+# target to build an object file
+LayerStack.cpp.o:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o
+.PHONY : LayerStack.cpp.o
+
+LayerStack.i: LayerStack.cpp.i
+
+.PHONY : LayerStack.i
+
+# target to preprocess a source file
+LayerStack.cpp.i:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.i
+.PHONY : LayerStack.cpp.i
+
+LayerStack.s: LayerStack.cpp.s
+
+.PHONY : LayerStack.s
+
+# target to generate assembly for a file
+LayerStack.cpp.s:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.s
+.PHONY : LayerStack.cpp.s
+
 Log.o: Log.cpp.o
 
 .PHONY : Log.o
@@ -242,6 +323,15 @@ help:
 	@echo "... Application.o"
 	@echo "... Application.i"
 	@echo "... Application.s"
+	@echo "... ImGui/ImGuiLayer.o"
+	@echo "... ImGui/ImGuiLayer.i"
+	@echo "... ImGui/ImGuiLayer.s"
+	@echo "... Layer.o"
+	@echo "... Layer.i"
+	@echo "... Layer.s"
+	@echo "... LayerStack.o"
+	@echo "... LayerStack.i"
+	@echo "... LayerStack.s"
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Hazel/vendor/GLAD/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../Hazel/vendor/GLAD/include/glad/glad.h
+KHR/khrplatform.h
+-
+
+/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/glad.h
+-
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+

@@ -75,16 +75,19 @@ clean: Sandbox/clean
 
 # Recursive "all" directory target.
 Hazel/all: Hazel/src/all
+Hazel/all: Hazel/vendor/all
 
 .PHONY : Hazel/all
 
 # Recursive "preinstall" directory target.
 Hazel/preinstall: Hazel/src/preinstall
+Hazel/preinstall: Hazel/vendor/preinstall
 
 .PHONY : Hazel/preinstall
 
 # Recursive "clean" directory target.
 Hazel/clean: Hazel/src/clean
+Hazel/clean: Hazel/vendor/clean
 
 .PHONY : Hazel/clean
 
@@ -123,6 +126,84 @@ Hazel/src/Hazel/preinstall:
 Hazel/src/Hazel/clean: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean
 
 .PHONY : Hazel/src/Hazel/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/vendor
+
+# Recursive "all" directory target.
+Hazel/vendor/all: Hazel/vendor/GLAD/src/all
+Hazel/vendor/all: Hazel/vendor/imgui/all
+Hazel/vendor/all: Hazel/vendor/spdlog/all
+
+.PHONY : Hazel/vendor/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/preinstall: Hazel/vendor/GLAD/src/preinstall
+Hazel/vendor/preinstall: Hazel/vendor/imgui/preinstall
+Hazel/vendor/preinstall: Hazel/vendor/spdlog/preinstall
+
+.PHONY : Hazel/vendor/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/clean: Hazel/vendor/GLAD/src/clean
+Hazel/vendor/clean: Hazel/vendor/imgui/clean
+Hazel/vendor/clean: Hazel/vendor/spdlog/clean
+
+.PHONY : Hazel/vendor/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/vendor/GLAD/src
+
+# Recursive "all" directory target.
+Hazel/vendor/GLAD/src/all: Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/all
+
+.PHONY : Hazel/vendor/GLAD/src/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/GLAD/src/preinstall:
+
+.PHONY : Hazel/vendor/GLAD/src/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/GLAD/src/clean: Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/clean
+
+.PHONY : Hazel/vendor/GLAD/src/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/vendor/imgui
+
+# Recursive "all" directory target.
+Hazel/vendor/imgui/all: Hazel/vendor/imgui/CMakeFiles/imgui.dir/all
+
+.PHONY : Hazel/vendor/imgui/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/imgui/preinstall:
+
+.PHONY : Hazel/vendor/imgui/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/imgui/clean: Hazel/vendor/imgui/CMakeFiles/imgui.dir/clean
+
+.PHONY : Hazel/vendor/imgui/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/vendor/spdlog
+
+# Recursive "all" directory target.
+Hazel/vendor/spdlog/all: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
+
+.PHONY : Hazel/vendor/spdlog/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/spdlog/preinstall:
+
+.PHONY : Hazel/vendor/spdlog/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/spdlog/clean: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
+
+.PHONY : Hazel/vendor/spdlog/clean
 
 #=============================================================================
 # Directory level rules for directory Sandbox
@@ -164,15 +245,16 @@ Sandbox/src/clean: Sandbox/src/CMakeFiles/SandboxApp.dir/clean
 # Target rules for target Hazel/src/Hazel/CMakeFiles/HazelLib.dir
 
 # All Build rule for target.
-Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all:
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all: Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/all
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all: Hazel/vendor/imgui/CMakeFiles/imgui.dir/all
 	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/depend
 	$(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=1,2,3,4 "Built target HazelLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target HazelLib"
 .PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
 .PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
@@ -188,18 +270,101 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean:
 .PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/clean
 
 #=============================================================================
+# Target rules for target Hazel/vendor/GLAD/src/CMakeFiles/glad.dir
+
+# All Build rule for target.
+Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/all:
+	$(MAKE) -f Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/build.make Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/depend
+	$(MAKE) -f Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/build.make Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=10,11 "Built target glad"
+.PHONY : Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/all
+
+# Build rule for subdir invocation for target.
+Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
+.PHONY : Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/rule
+
+.PHONY : glad
+
+# clean rule for target.
+Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/clean:
+	$(MAKE) -f Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/build.make Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/clean
+.PHONY : Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/clean
+
+#=============================================================================
+# Target rules for target Hazel/vendor/imgui/CMakeFiles/imgui.dir
+
+# All Build rule for target.
+Hazel/vendor/imgui/CMakeFiles/imgui.dir/all:
+	$(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/depend
+	$(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Built target imgui"
+.PHONY : Hazel/vendor/imgui/CMakeFiles/imgui.dir/all
+
+# Build rule for subdir invocation for target.
+Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/CMakeFiles/imgui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
+.PHONY : Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule
+
+# Convenience name for target.
+imgui: Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule
+
+.PHONY : imgui
+
+# clean rule for target.
+Hazel/vendor/imgui/CMakeFiles/imgui.dir/clean:
+	$(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/clean
+.PHONY : Hazel/vendor/imgui/CMakeFiles/imgui.dir/clean
+
+#=============================================================================
+# Target rules for target Hazel/vendor/spdlog/CMakeFiles/spdlog.dir
+
+# All Build rule for target.
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all:
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/depend
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=20,21,22,23,24,25,26,27 "Built target spdlog"
+.PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
+
+# Build rule for subdir invocation for target.
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
+.PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/rule
+
+# Convenience name for target.
+spdlog: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/rule
+
+.PHONY : spdlog
+
+# clean rule for target.
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean:
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
+.PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
+
+#=============================================================================
 # Target rules for target Sandbox/src/CMakeFiles/SandboxApp.dir
 
 # All Build rule for target.
 Sandbox/src/CMakeFiles/SandboxApp.dir/all: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/all
+Sandbox/src/CMakeFiles/SandboxApp.dir/all: Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/all
+Sandbox/src/CMakeFiles/SandboxApp.dir/all: Hazel/vendor/imgui/CMakeFiles/imgui.dir/all
 	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/depend
 	$(MAKE) -f Sandbox/src/CMakeFiles/SandboxApp.dir/build.make Sandbox/src/CMakeFiles/SandboxApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=5,6 "Built target SandboxApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=8,9 "Built target SandboxApp"
 .PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/all
 
 # Build rule for subdir invocation for target.
 Sandbox/src/CMakeFiles/SandboxApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 Sandbox/src/CMakeFiles/SandboxApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
 .PHONY : Sandbox/src/CMakeFiles/SandboxApp.dir/rule
