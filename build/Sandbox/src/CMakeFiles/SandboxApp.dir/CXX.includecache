@@ -48,9 +48,27 @@ string
 functional
 -
 
+../Hazel/src/Hazel/Events/KeyEvent.h
+Event.h
+../Hazel/src/Hazel/Events/Event.h
+sstream
+-
+
+../Hazel/src/Hazel/Events/MouseEvent.h
+Event.h
+../Hazel/src/Hazel/Events/Event.h
+sstream
+-
+
 ../Hazel/src/Hazel/ImGui/ImGuiLayer.h
 ../Layer.h
 ../Hazel/src/Hazel/Layer.h
+../Events/KeyEvent.h
+../Hazel/src/Hazel/Events/KeyEvent.h
+../Events/MouseEvent.h
+../Hazel/src/Hazel/Events/MouseEvent.h
+../Events/ApplicationEvent.h
+../Hazel/src/Hazel/Events/ApplicationEvent.h
 
 ../Hazel/src/Hazel/Layer.h
 Core.h

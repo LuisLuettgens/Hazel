@@ -42,6 +42,27 @@ namespace Hazel
 
     };
 
+    class KeyTypedEvent : public KeyEvent
+    {
+        public:
+            KeyTypedEvent(int keycode)
+                : KeyEvent(keycode)
+                {
+
+                }
+    
+            std::string ToString() const override
+            {
+                std::stringstream ss;
+                ss << "KeytypedEvent: " << m_KeyCode;
+                return ss.str();
+            }
+
+            EVENT_CLASS_TYPE(KeyTyped)
+
+    };
+
+
     class KeyReleasedEvent : public KeyEvent
     {
         public:

@@ -68,6 +68,10 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o
  ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
  ../Hazel/vendor/imgui/imconfig.h
  ../Hazel/vendor/imgui/imgui.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/KeyEvent.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/MouseEvent.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.h

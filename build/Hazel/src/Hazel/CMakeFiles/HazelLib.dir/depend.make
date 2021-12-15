@@ -67,6 +67,10 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Pla
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/vendor/imgui/imconfig.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/vendor/imgui/imgui.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/Events/Event.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/Events/KeyEvent.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/Events/MouseEvent.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/ImGui/ImGuiLayer.cpp
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/ImGui/ImGuiLayer.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o: ../Hazel/src/Hazel/Layer.h

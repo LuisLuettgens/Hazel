@@ -8,6 +8,8 @@ Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o
  ../Hazel/src/Hazel/EntryPoint.h
  ../Hazel/src/Hazel/Events/ApplicationEvent.h
  ../Hazel/src/Hazel/Events/Event.h
+ ../Hazel/src/Hazel/Events/KeyEvent.h
+ ../Hazel/src/Hazel/Events/MouseEvent.h
  ../Hazel/src/Hazel/ImGui/ImGuiLayer.h
  ../Hazel/src/Hazel/Layer.h
  ../Hazel/src/Hazel/LayerStack.h
