@@ -282,6 +282,33 @@ Log.cpp.s:
 	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.s
 .PHONY : Log.cpp.s
 
+__/Platform/LinuxInput.o: __/Platform/LinuxInput.cpp.o
+
+.PHONY : __/Platform/LinuxInput.o
+
+# target to build an object file
+__/Platform/LinuxInput.cpp.o:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o
+.PHONY : __/Platform/LinuxInput.cpp.o
+
+__/Platform/LinuxInput.i: __/Platform/LinuxInput.cpp.i
+
+.PHONY : __/Platform/LinuxInput.i
+
+# target to preprocess a source file
+__/Platform/LinuxInput.cpp.i:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.i
+.PHONY : __/Platform/LinuxInput.cpp.i
+
+__/Platform/LinuxInput.s: __/Platform/LinuxInput.cpp.s
+
+.PHONY : __/Platform/LinuxInput.s
+
+# target to generate assembly for a file
+__/Platform/LinuxInput.cpp.s:
+	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.s
+.PHONY : __/Platform/LinuxInput.cpp.s
+
 __/Platform/LinuxWindow.o: __/Platform/LinuxWindow.cpp.o
 
 .PHONY : __/Platform/LinuxWindow.o
@@ -335,6 +362,9 @@ help:
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"
+	@echo "... __/Platform/LinuxInput.o"
+	@echo "... __/Platform/LinuxInput.i"
+	@echo "... __/Platform/LinuxInput.s"
 	@echo "... __/Platform/LinuxWindow.o"
 	@echo "... __/Platform/LinuxWindow.i"
 	@echo "... __/Platform/LinuxWindow.s"

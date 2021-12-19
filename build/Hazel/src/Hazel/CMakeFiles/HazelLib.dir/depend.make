@@ -51,6 +51,7 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Ap
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Core.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Events/Event.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Input.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Layer.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/LayerStack.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o: ../Hazel/src/Hazel/Log.h
@@ -134,6 +135,18 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o: ../Hazel/vendor/spdlog/includ
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o: ../Hazel/src/Hazel/Core.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o: ../Hazel/src/Hazel/Log.cpp
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o: ../Hazel/src/Hazel/Log.h
+
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Application.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Core.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Events/ApplicationEvent.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Events/Event.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Input.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Layer.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/LayerStack.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Hazel/Window.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Platform/LinuxInput.cpp
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o: ../Hazel/src/Platform/LinuxInput.h
 
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/vendor/GLAD/include/KHR/khrplatform.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o: ../Hazel/vendor/GLAD/include/glad/glad.h

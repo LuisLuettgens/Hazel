@@ -18,10 +18,13 @@ include_directories(${PROJECT_SOURCE_DIR}/Hazel/vendor/spdlog/include
 add_library(HazelLib 
                 Application.cpp
                 Log.cpp
-                ../Platform/LinuxWindow.cpp
-                ImGui/ImGuiLayer.cpp
+                
                 Layer.cpp
+                ImGui/ImGuiLayer.cpp
                 LayerStack.cpp
+
+                ../Platform/LinuxWindow.cpp
+                ../Platform/LinuxInput.cpp
             )
 
 target_link_libraries(HazelLib glad imgui dl GL pthread)

@@ -4,6 +4,8 @@
 
 #include "glad/glad.h"
 
+#include "Input.h"
+
 namespace Hazel
 {
 
@@ -15,6 +17,7 @@ namespace Hazel
     {
         HZ_ASSERT(!s_Instance, "Application already exists!");
         s_Instance = this;
+
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallback(BIND_EVENT_FN(Application::OnEvent));
     }
@@ -57,10 +60,16 @@ namespace Hazel
 
         while(m_Running)
         {
-            m_Window->OnUpdate();
         
+            glClearColor(0,0,0,1);
+            glClear(GL_COLOR_BUFFER_BIT);
+
             for (Layer* layer : m_LayerStack)
+            {
                 layer->OnUpdate();    
+            }            
+
+            m_Window->OnUpdate();
         
         }
     }

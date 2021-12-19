@@ -1,33 +1,38 @@
 [
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/HazelLib.dir/Application.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/Application.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/HazelLib.dir/Log.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/Log.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp",
-  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp"
-},
-{
-  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp",
-  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp"
-},
-{
-  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/HazelLib.dir/Layer.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/Layer.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/HazelLib.dir/LayerStack.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp",
+  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/ImGui/ImGuiLayer.cpp"
+},
+{
+  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/LayerStack.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp"
+},
+{
+  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp",
+  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp"
+},
+{
+  "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxInput.cpp",
+  "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxInput.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src",
@@ -36,77 +41,77 @@
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_demo.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_demo.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_demo.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_draw.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_draw.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_draw.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_tables.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_tables.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_tables.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_widgets.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_widgets.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_widgets.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -o CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends  -g   -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++11 -o CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DSPDLOG_COMPILED_LIB -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include  -g   -std=c++17 -o CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp"
 },
 {
   "directory": "/home/luis/Documents/vscode_projects/Hazel/build/Sandbox/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -o CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/luis/Documents/vscode_projects/Hazel/Sandbox -I/home/luis/Documents/vscode_projects/Hazel/Hazel/src -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include -I/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include  -g   -std=gnu++17 -o CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp",
   "file": "/home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp"
 }
 ]

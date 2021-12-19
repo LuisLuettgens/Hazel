@@ -52,6 +52,7 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Input.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
@@ -135,6 +136,18 @@ Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp
  /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.h
+Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o
+ ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Application.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Core.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/ApplicationEvent.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Events/Event.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Input.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Window.h
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxInput.cpp
+ /home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxInput.h
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
  ../Hazel/vendor/GLAD/include/KHR/khrplatform.h
  ../Hazel/vendor/GLAD/include/glad/glad.h

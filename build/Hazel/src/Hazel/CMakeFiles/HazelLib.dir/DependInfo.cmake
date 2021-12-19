@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Layer.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o"
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/LayerStack.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o"
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel/Log.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o"
+  "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxInput.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o"
   "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/LinuxWindow.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
