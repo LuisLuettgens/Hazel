@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/Documents/vscode_projects/Hazel
+CMAKE_SOURCE_DIR = /home/luis/Hazel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
+CMAKE_BINARY_DIR = /home/luis/Hazel/build
 
 # Include any dependencies generated for this target.
 include Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/depend.make
@@ -59,94 +59,94 @@ include Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: ../Hazel/vendor/spdlog/src/spdlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/spdlog.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp > CMakeFiles/spdlog.dir/src/spdlog.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp > CMakeFiles/spdlog.dir/src/spdlog.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/spdlog.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp -o CMakeFiles/spdlog.dir/src/spdlog.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp -o CMakeFiles/spdlog.dir/src/spdlog.cpp.s
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: ../Hazel/vendor/spdlog/src/stdout_sinks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp > CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp > CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: ../Hazel/vendor/spdlog/src/color_sinks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/color_sinks.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp > CMakeFiles/spdlog.dir/src/color_sinks.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp > CMakeFiles/spdlog.dir/src/color_sinks.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/color_sinks.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.s
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: ../Hazel/vendor/spdlog/src/file_sinks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/file_sinks.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp > CMakeFiles/spdlog.dir/src/file_sinks.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp > CMakeFiles/spdlog.dir/src/file_sinks.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/file_sinks.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.s
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o: ../Hazel/vendor/spdlog/src/async.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/async.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/async.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp > CMakeFiles/spdlog.dir/src/async.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/async.cpp > CMakeFiles/spdlog.dir/src/async.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/async.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp -o CMakeFiles/spdlog.dir/src/async.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/async.cpp -o CMakeFiles/spdlog.dir/src/async.cpp.s
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o: ../Hazel/vendor/spdlog/src/cfg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/cfg.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/cfg.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp > CMakeFiles/spdlog.dir/src/cfg.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/cfg.cpp > CMakeFiles/spdlog.dir/src/cfg.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/cfg.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp -o CMakeFiles/spdlog.dir/src/cfg.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/cfg.cpp -o CMakeFiles/spdlog.dir/src/cfg.cpp.s
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/flags.make
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o: ../Hazel/vendor/spdlog/src/fmt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/luis/Hazel/Hazel/vendor/spdlog/src/fmt.cpp
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/fmt.cpp.i"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp > CMakeFiles/spdlog.dir/src/fmt.cpp.i
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/Hazel/Hazel/vendor/spdlog/src/fmt.cpp > CMakeFiles/spdlog.dir/src/fmt.cpp.i
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/fmt.cpp.s"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp -o CMakeFiles/spdlog.dir/src/fmt.cpp.s
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/Hazel/Hazel/vendor/spdlog/src/fmt.cpp -o CMakeFiles/spdlog.dir/src/fmt.cpp.s
 
 # Object files for target spdlog
 spdlog_OBJECTS = \
@@ -161,29 +161,29 @@ spdlog_OBJECTS = \
 # External object files for target spdlog
 spdlog_EXTERNAL_OBJECTS =
 
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make
-Hazel/vendor/spdlog/libspdlogd.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libspdlogd.a"
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && $(CMAKE_COMMAND) -P CMakeFiles/spdlog.dir/cmake_clean_target.cmake
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spdlog.dir/link.txt --verbose=$(VERBOSE)
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make
+Hazel/vendor/spdlog/libspdlog.a: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/Hazel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libspdlog.a"
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && $(CMAKE_COMMAND) -P CMakeFiles/spdlog.dir/cmake_clean_target.cmake
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spdlog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build: Hazel/vendor/spdlog/libspdlogd.a
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build: Hazel/vendor/spdlog/libspdlog.a
 
 .PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean:
-	cd /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog && $(CMAKE_COMMAND) -P CMakeFiles/spdlog.dir/cmake_clean.cmake
+	cd /home/luis/Hazel/build/Hazel/vendor/spdlog && $(CMAKE_COMMAND) -P CMakeFiles/spdlog.dir/cmake_clean.cmake
 .PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
 
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/depend:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/Documents/vscode_projects/Hazel /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog /home/luis/Documents/vscode_projects/Hazel/build /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/Hazel /home/luis/Hazel/Hazel/vendor/spdlog /home/luis/Hazel/build /home/luis/Hazel/build/Hazel/vendor/spdlog /home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/depend
 

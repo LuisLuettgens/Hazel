@@ -45,7 +45,7 @@ Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/async.cpp
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/cfg/helpers-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/cfg/helpers.h
@@ -90,7 +90,7 @@ Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/spdlog.h
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
  ../Hazel/vendor/spdlog/include/spdlog/version.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/cfg.cpp
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/async.h
  ../Hazel/vendor/spdlog/include/spdlog/async_logger-inl.h
@@ -138,7 +138,7 @@ Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
@@ -186,13 +186,13 @@ Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
  ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/xchar.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/fmt.cpp
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
@@ -237,7 +237,7 @@ Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/spdlog.h
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
  ../Hazel/vendor/spdlog/include/spdlog/version.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/async.h
  ../Hazel/vendor/spdlog/include/spdlog/async_logger-inl.h
@@ -285,4 +285,4 @@ Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp
+ /home/luis/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp

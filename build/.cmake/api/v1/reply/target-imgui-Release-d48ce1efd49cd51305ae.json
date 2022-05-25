@@ -43,7 +43,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "-O3 -DNDEBUG  "
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -53,11 +53,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui"
+					"path" : "/home/luis/Hazel/Hazel/vendor/imgui/../../vendor/imgui"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends"
+					"path" : "/home/luis/Hazel/Hazel/vendor/imgui/../../vendor/imgui/backends"
 				}
 			],
 			"language" : "CXX",

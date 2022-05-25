@@ -148,7 +148,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -217,35 +217,35 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "HazelLib::@49eb673796c2e3dc8c81",
-					"jsonFile" : "target-HazelLib-Debug-fe496cc2845649526fd4.json",
+					"jsonFile" : "target-HazelLib-Release-95ee725ac00e4d06533a.json",
 					"name" : "HazelLib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "SandboxApp::@fb0ec3b4a9b6261bc287",
-					"jsonFile" : "target-SandboxApp-Debug-d6bc52c17a9a19eac326.json",
+					"jsonFile" : "target-SandboxApp-Release-793f8257081ac03aba49.json",
 					"name" : "SandboxApp",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "glad::@28621d193bc9ebffc4a1",
-					"jsonFile" : "target-glad-Debug-e3878053f5389f9a7cab.json",
+					"jsonFile" : "target-glad-Release-70c17ec37c7b21c4f719.json",
 					"name" : "glad",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "imgui::@f09b917f602c87090579",
-					"jsonFile" : "target-imgui-Debug-00fb8e02c6599f08899d.json",
+					"jsonFile" : "target-imgui-Release-d48ce1efd49cd51305ae.json",
 					"name" : "imgui",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "spdlog::@75c29fe305e6cf52d47e",
-					"jsonFile" : "target-spdlog-Debug-feb0150cafe2bfe055a1.json",
+					"jsonFile" : "target-spdlog-Release-22dc1f79863747b88148.json",
 					"name" : "spdlog",
 					"projectIndex" : 3
 				}
@@ -255,8 +255,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/luis/Documents/vscode_projects/Hazel/build",
-		"source" : "/home/luis/Documents/vscode_projects/Hazel"
+		"build" : "/home/luis/Hazel/build",
+		"source" : "/home/luis/Hazel"
 	},
 	"version" : 
 	{

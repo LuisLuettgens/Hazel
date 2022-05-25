@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/Documents/vscode_projects/Hazel
+CMAKE_SOURCE_DIR = /home/luis/Hazel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
+CMAKE_BINARY_DIR = /home/luis/Hazel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/luis/Documents/vscode_projects/Hazel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/luis/Documents/vscode_projects/Hazel/build/CPackSourceConfig.cmake
+	cd /home/luis/Hazel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/luis/Hazel/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -81,7 +81,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/luis/Documents/vscode_projects/Hazel/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/luis/Hazel/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -102,14 +102,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/progress.marks
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Hazel/build/CMakeFiles /home/luis/Hazel/build/Hazel/src/Hazel/CMakeFiles/progress.marks
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Hazel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/clean
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/clean
 .PHONY : clean
 
 # The main clean target
@@ -119,22 +119,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/preinstall
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/preinstall
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 .PHONY : Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ HazelLib: Hazel/src/Hazel/CMakeFiles/HazelLib.dir/rule
 
 # fast build rule for target.
 HazelLib/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build
 .PHONY : HazelLib/fast
 
 Application.o: Application.cpp.o
@@ -153,7 +153,7 @@ Application.o: Application.cpp.o
 
 # target to build an object file
 Application.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.o
 .PHONY : Application.cpp.o
 
 Application.i: Application.cpp.i
@@ -162,7 +162,7 @@ Application.i: Application.cpp.i
 
 # target to preprocess a source file
 Application.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.i
 .PHONY : Application.cpp.i
 
 Application.s: Application.cpp.s
@@ -171,7 +171,7 @@ Application.s: Application.cpp.s
 
 # target to generate assembly for a file
 Application.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
 ImGui/ImGuiLayer.o: ImGui/ImGuiLayer.cpp.o
@@ -180,7 +180,7 @@ ImGui/ImGuiLayer.o: ImGui/ImGuiLayer.cpp.o
 
 # target to build an object file
 ImGui/ImGuiLayer.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o
 .PHONY : ImGui/ImGuiLayer.cpp.o
 
 ImGui/ImGuiLayer.i: ImGui/ImGuiLayer.cpp.i
@@ -189,7 +189,7 @@ ImGui/ImGuiLayer.i: ImGui/ImGuiLayer.cpp.i
 
 # target to preprocess a source file
 ImGui/ImGuiLayer.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.i
 .PHONY : ImGui/ImGuiLayer.cpp.i
 
 ImGui/ImGuiLayer.s: ImGui/ImGuiLayer.cpp.s
@@ -198,7 +198,7 @@ ImGui/ImGuiLayer.s: ImGui/ImGuiLayer.cpp.s
 
 # target to generate assembly for a file
 ImGui/ImGuiLayer.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.s
 .PHONY : ImGui/ImGuiLayer.cpp.s
 
 Layer.o: Layer.cpp.o
@@ -207,7 +207,7 @@ Layer.o: Layer.cpp.o
 
 # target to build an object file
 Layer.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.o
 .PHONY : Layer.cpp.o
 
 Layer.i: Layer.cpp.i
@@ -216,7 +216,7 @@ Layer.i: Layer.cpp.i
 
 # target to preprocess a source file
 Layer.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.i
 .PHONY : Layer.cpp.i
 
 Layer.s: Layer.cpp.s
@@ -225,7 +225,7 @@ Layer.s: Layer.cpp.s
 
 # target to generate assembly for a file
 Layer.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Layer.cpp.s
 .PHONY : Layer.cpp.s
 
 LayerStack.o: LayerStack.cpp.o
@@ -234,7 +234,7 @@ LayerStack.o: LayerStack.cpp.o
 
 # target to build an object file
 LayerStack.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.o
 .PHONY : LayerStack.cpp.o
 
 LayerStack.i: LayerStack.cpp.i
@@ -243,7 +243,7 @@ LayerStack.i: LayerStack.cpp.i
 
 # target to preprocess a source file
 LayerStack.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.i
 .PHONY : LayerStack.cpp.i
 
 LayerStack.s: LayerStack.cpp.s
@@ -252,7 +252,7 @@ LayerStack.s: LayerStack.cpp.s
 
 # target to generate assembly for a file
 LayerStack.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/LayerStack.cpp.s
 .PHONY : LayerStack.cpp.s
 
 Log.o: Log.cpp.o
@@ -261,7 +261,7 @@ Log.o: Log.cpp.o
 
 # target to build an object file
 Log.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.o
 .PHONY : Log.cpp.o
 
 Log.i: Log.cpp.i
@@ -270,7 +270,7 @@ Log.i: Log.cpp.i
 
 # target to preprocess a source file
 Log.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.i
 .PHONY : Log.cpp.i
 
 Log.s: Log.cpp.s
@@ -279,7 +279,7 @@ Log.s: Log.cpp.s
 
 # target to generate assembly for a file
 Log.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/Log.cpp.s
 .PHONY : Log.cpp.s
 
 __/Platform/LinuxInput.o: __/Platform/LinuxInput.cpp.o
@@ -288,7 +288,7 @@ __/Platform/LinuxInput.o: __/Platform/LinuxInput.cpp.o
 
 # target to build an object file
 __/Platform/LinuxInput.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o
 .PHONY : __/Platform/LinuxInput.cpp.o
 
 __/Platform/LinuxInput.i: __/Platform/LinuxInput.cpp.i
@@ -297,7 +297,7 @@ __/Platform/LinuxInput.i: __/Platform/LinuxInput.cpp.i
 
 # target to preprocess a source file
 __/Platform/LinuxInput.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.i
 .PHONY : __/Platform/LinuxInput.cpp.i
 
 __/Platform/LinuxInput.s: __/Platform/LinuxInput.cpp.s
@@ -306,7 +306,7 @@ __/Platform/LinuxInput.s: __/Platform/LinuxInput.cpp.s
 
 # target to generate assembly for a file
 __/Platform/LinuxInput.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.s
 .PHONY : __/Platform/LinuxInput.cpp.s
 
 __/Platform/LinuxWindow.o: __/Platform/LinuxWindow.cpp.o
@@ -315,7 +315,7 @@ __/Platform/LinuxWindow.o: __/Platform/LinuxWindow.cpp.o
 
 # target to build an object file
 __/Platform/LinuxWindow.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o
 .PHONY : __/Platform/LinuxWindow.cpp.o
 
 __/Platform/LinuxWindow.i: __/Platform/LinuxWindow.cpp.i
@@ -324,7 +324,7 @@ __/Platform/LinuxWindow.i: __/Platform/LinuxWindow.cpp.i
 
 # target to preprocess a source file
 __/Platform/LinuxWindow.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.i
 .PHONY : __/Platform/LinuxWindow.cpp.i
 
 __/Platform/LinuxWindow.s: __/Platform/LinuxWindow.cpp.s
@@ -333,7 +333,7 @@ __/Platform/LinuxWindow.s: __/Platform/LinuxWindow.cpp.s
 
 # target to generate assembly for a file
 __/Platform/LinuxWindow.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/src/Hazel/CMakeFiles/HazelLib.dir/build.make Hazel/src/Hazel/CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.s
 .PHONY : __/Platform/LinuxWindow.cpp.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

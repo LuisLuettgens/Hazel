@@ -27,4 +27,4 @@ add_library(HazelLib
                 ../Platform/LinuxInput.cpp
             )
 
-target_link_libraries(HazelLib glad imgui dl GL pthread)
+target_link_libraries(HazelLib glad /home/luis/Hazel/build/Hazel/vendor/imgui/libimgui.a dl GL pthread)

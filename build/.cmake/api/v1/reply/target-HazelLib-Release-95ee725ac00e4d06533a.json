@@ -50,7 +50,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "-O3 -DNDEBUG  "
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -60,43 +60,43 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/spdlog/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLFW/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLAD/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui"
+					"path" : "/home/luis/Hazel/Hazel/vendor/imgui"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform"
+					"path" : "/home/luis/Hazel/Hazel/src/Platform"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src"
+					"path" : "/home/luis/Hazel/Hazel/src"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel"
+					"path" : "/home/luis/Hazel/Hazel/src/Hazel"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/ImGui"
+					"path" : "/home/luis/Hazel/Hazel/src/ImGui"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Platform/OpenGL"
+					"path" : "/home/luis/Hazel/Hazel/src/Platform/OpenGL"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLAD/src/include"
 				}
 			],
 			"language" : "CXX",
@@ -117,10 +117,6 @@
 		{
 			"backtrace" : 2,
 			"id" : "glad::@28621d193bc9ebffc4a1"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "imgui::@f09b917f602c87090579"
 		}
 	],
 	"id" : "HazelLib::@49eb673796c2e3dc8c81",

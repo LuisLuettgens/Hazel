@@ -816,7 +816,7 @@ spdlog-inl.h
 
 ../Hazel/vendor/spdlog/include/spdlog/version.h
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/async.cpp
 spdlog/async.h
 -
 spdlog/async_logger-inl.h
@@ -826,11 +826,11 @@ spdlog/details/periodic_worker-inl.h
 spdlog/details/thread_pool-inl.h
 -
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/cfg.cpp
 spdlog/cfg/helpers-inl.h
 -
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h
@@ -840,11 +840,11 @@ spdlog/async.h
 spdlog/sinks/wincolor_sink-inl.h
 -
 spdlog/sinks/ansicolor_sink-inl.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
+/home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/stdout_color_sinks-inl.h
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
+/home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp
 spdlog/details/null_mutex.h
 -
 spdlog/details/file_helper-inl.h
@@ -858,11 +858,11 @@ mutex
 spdlog/sinks/rotating_file_sink-inl.h
 -
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/fmt.cpp
 spdlog/fmt/bundled/format-inl.h
 -
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp
 spdlog/spdlog-inl.h
 -
 spdlog/common-inl.h
@@ -890,7 +890,7 @@ spdlog/details/null_mutex.h
 mutex
 -
 
-/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp
+/home/luis/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h

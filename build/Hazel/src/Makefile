@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/Documents/vscode_projects/Hazel
+CMAKE_SOURCE_DIR = /home/luis/Hazel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
+CMAKE_BINARY_DIR = /home/luis/Hazel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/luis/Documents/vscode_projects/Hazel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/luis/Documents/vscode_projects/Hazel/build/CPackSourceConfig.cmake
+	cd /home/luis/Hazel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/luis/Hazel/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -92,7 +92,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/luis/Documents/vscode_projects/Hazel/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/luis/Hazel/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -102,14 +102,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles /home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/CMakeFiles/progress.marks
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Hazel/build/CMakeFiles /home/luis/Hazel/build/Hazel/src/CMakeFiles/progress.marks
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Hazel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/clean
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -119,17 +119,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/preinstall
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/preinstall
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -153,6 +153,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

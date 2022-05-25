@@ -1,2 +1,2 @@
-/bin/ar qc libHazelLib.a  CMakeFiles/HazelLib.dir/Application.cpp.o CMakeFiles/HazelLib.dir/Log.cpp.o CMakeFiles/HazelLib.dir/Layer.cpp.o CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o CMakeFiles/HazelLib.dir/LayerStack.cpp.o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o
-/bin/ranlib libHazelLib.a
+/usr/bin/ar qc libHazelLib.a  CMakeFiles/HazelLib.dir/Application.cpp.o CMakeFiles/HazelLib.dir/Log.cpp.o CMakeFiles/HazelLib.dir/Layer.cpp.o CMakeFiles/HazelLib.dir/ImGui/ImGuiLayer.cpp.o CMakeFiles/HazelLib.dir/LayerStack.cpp.o CMakeFiles/HazelLib.dir/__/Platform/LinuxWindow.cpp.o CMakeFiles/HazelLib.dir/__/Platform/LinuxInput.cpp.o
+/usr/bin/ranlib libHazelLib.a

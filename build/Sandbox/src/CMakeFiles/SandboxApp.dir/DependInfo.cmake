@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/Documents/vscode_projects/Hazel/Sandbox/src/SandboxApp.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o"
+  "/home/luis/Hazel/Sandbox/src/SandboxApp.cpp" "/home/luis/Hazel/build/Sandbox/src/CMakeFiles/SandboxApp.dir/SandboxApp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,9 +19,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/DependInfo.cmake"
-  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/DependInfo.cmake"
-  "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/luis/Hazel/build/Hazel/src/Hazel/CMakeFiles/HazelLib.dir/DependInfo.cmake"
+  "/home/luis/Hazel/build/Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

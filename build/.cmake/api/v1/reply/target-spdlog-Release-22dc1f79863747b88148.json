@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Hazel/vendor/spdlog/libspdlogd.a"
+			"path" : "Hazel/vendor/spdlog/libspdlog.a"
 		}
 	],
 	"backtrace" : 1,
@@ -50,7 +50,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "-O3 -DNDEBUG  "
 				},
 				{
 					"fragment" : "-std=c++17"
@@ -67,7 +67,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/spdlog/include"
 				}
 			],
 			"language" : "CXX",
@@ -85,7 +85,7 @@
 	],
 	"id" : "spdlog::@75c29fe305e6cf52d47e",
 	"name" : "spdlog",
-	"nameOnDisk" : "libspdlogd.a",
+	"nameOnDisk" : "libspdlog.a",
 	"paths" : 
 	{
 		"build" : "Hazel/vendor/spdlog",

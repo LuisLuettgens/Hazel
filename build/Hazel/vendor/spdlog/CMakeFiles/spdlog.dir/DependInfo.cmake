@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/async.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/cfg.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/fmt.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o"
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/async.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/cfg.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/color_sinks.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/file_sinks.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/fmt.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/spdlog.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+  "/home/luis/Hazel/Hazel/vendor/spdlog/src/stdout_sinks.cpp" "/home/luis/Hazel/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

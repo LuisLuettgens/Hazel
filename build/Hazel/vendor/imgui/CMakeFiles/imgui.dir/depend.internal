@@ -4,42 +4,42 @@
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o
  ../Hazel/vendor/imgui/imconfig.h
  ../Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.cpp
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.h
+ /home/luis/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/backends/imgui_impl_glfw.h
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o
  ../Hazel/vendor/imgui/imconfig.h
  ../Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.cpp
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3_loader.h
+ /home/luis/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3.h
+ /home/luis/Hazel/Hazel/vendor/imgui/backends/imgui_impl_opengl3_loader.h
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imconfig.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.cpp
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_internal.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imstb_textedit.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imconfig.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_internal.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imstb_textedit.h
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imconfig.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_demo.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/imconfig.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_demo.cpp
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imconfig.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_draw.cpp
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_internal.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imstb_rectpack.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imstb_textedit.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imstb_truetype.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/misc/freetype/imgui_freetype.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imconfig.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_draw.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_internal.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imstb_rectpack.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imstb_textedit.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imstb_truetype.h
+ /home/luis/Hazel/Hazel/vendor/imgui/misc/freetype/imgui_freetype.h
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imconfig.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_internal.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_tables.cpp
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imstb_textedit.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imconfig.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_internal.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_tables.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/imstb_textedit.h
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imconfig.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_internal.h
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imgui_widgets.cpp
- /home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui/imstb_textedit.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imconfig.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_internal.h
+ /home/luis/Hazel/Hazel/vendor/imgui/imgui_widgets.cpp
+ /home/luis/Hazel/Hazel/vendor/imgui/imstb_textedit.h

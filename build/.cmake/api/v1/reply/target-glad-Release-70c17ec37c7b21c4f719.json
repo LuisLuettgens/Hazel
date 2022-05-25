@@ -50,18 +50,18 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "-O3 -DNDEBUG  "
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/../include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLAD/src/../include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLAD/src/include"
 				}
 			],
 			"language" : "C",

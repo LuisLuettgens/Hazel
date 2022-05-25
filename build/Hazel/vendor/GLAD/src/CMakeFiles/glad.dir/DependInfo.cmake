@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/glad.c" "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/glad.c.o"
+  "/home/luis/Hazel/Hazel/vendor/GLAD/src/glad.c" "/home/luis/Hazel/build/Hazel/vendor/GLAD/src/CMakeFiles/glad.dir/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/luis/Documents/vscode_projects/Hazel/Sandbox/bin/SandboxApp"
+			"path" : "/home/luis/Hazel/Sandbox/bin/SandboxApp"
 		}
 	],
 	"backtrace" : 1,
@@ -74,7 +74,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "-O3 -DNDEBUG  "
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -84,23 +84,23 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Sandbox"
+					"path" : "/home/luis/Hazel/Sandbox"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src"
+					"path" : "/home/luis/Hazel/Hazel/src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/spdlog/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLFW/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLFW/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src/include"
+					"path" : "/home/luis/Hazel/Hazel/vendor/GLAD/src/include"
 				}
 			],
 			"language" : "CXX",
@@ -119,10 +119,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "glad::@28621d193bc9ebffc4a1"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "imgui::@f09b917f602c87090579"
 		}
 	],
 	"id" : "SandboxApp::@fb0ec3b4a9b6261bc287",
@@ -131,7 +127,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -140,11 +136,11 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-L/home/luis/Documents/vscode_projects/Hazel/Hazel/src",
+				"fragment" : "-L/home/luis/Hazel/Hazel/src",
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/luis/Documents/vscode_projects/Hazel/Hazel/src",
+				"fragment" : "-Wl,-rpath,/home/luis/Hazel/Hazel/src",
 				"role" : "libraries"
 			},
 			{

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/Documents/vscode_projects/Hazel
+CMAKE_SOURCE_DIR = /home/luis/Hazel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/Documents/vscode_projects/Hazel/build
+CMAKE_BINARY_DIR = /home/luis/Hazel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/luis/Documents/vscode_projects/Hazel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/luis/Documents/vscode_projects/Hazel/build/CPackSourceConfig.cmake
+	cd /home/luis/Hazel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/luis/Hazel/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -92,7 +92,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/luis/Documents/vscode_projects/Hazel/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/luis/Hazel/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -102,14 +102,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles /home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui/CMakeFiles/progress.marks
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/vscode_projects/Hazel/build/CMakeFiles 0
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Hazel/build/CMakeFiles /home/luis/Hazel/build/Hazel/vendor/imgui/CMakeFiles/progress.marks
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Hazel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/clean
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -119,22 +119,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/preinstall
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/preinstall
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule
+	cd /home/luis/Hazel/build && $(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule
 .PHONY : Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ imgui: Hazel/vendor/imgui/CMakeFiles/imgui.dir/rule
 
 # fast build rule for target.
 imgui/fast:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/build
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
 backends/imgui_impl_glfw.o: backends/imgui_impl_glfw.cpp.o
@@ -153,7 +153,7 @@ backends/imgui_impl_glfw.o: backends/imgui_impl_glfw.cpp.o
 
 # target to build an object file
 backends/imgui_impl_glfw.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o
 .PHONY : backends/imgui_impl_glfw.cpp.o
 
 backends/imgui_impl_glfw.i: backends/imgui_impl_glfw.cpp.i
@@ -162,7 +162,7 @@ backends/imgui_impl_glfw.i: backends/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 backends/imgui_impl_glfw.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.i
 .PHONY : backends/imgui_impl_glfw.cpp.i
 
 backends/imgui_impl_glfw.s: backends/imgui_impl_glfw.cpp.s
@@ -171,7 +171,7 @@ backends/imgui_impl_glfw.s: backends/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 backends/imgui_impl_glfw.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.s
 .PHONY : backends/imgui_impl_glfw.cpp.s
 
 backends/imgui_impl_opengl3.o: backends/imgui_impl_opengl3.cpp.o
@@ -180,7 +180,7 @@ backends/imgui_impl_opengl3.o: backends/imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 backends/imgui_impl_opengl3.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o
 .PHONY : backends/imgui_impl_opengl3.cpp.o
 
 backends/imgui_impl_opengl3.i: backends/imgui_impl_opengl3.cpp.i
@@ -189,7 +189,7 @@ backends/imgui_impl_opengl3.i: backends/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 backends/imgui_impl_opengl3.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.i
 .PHONY : backends/imgui_impl_opengl3.cpp.i
 
 backends/imgui_impl_opengl3.s: backends/imgui_impl_opengl3.cpp.s
@@ -198,7 +198,7 @@ backends/imgui_impl_opengl3.s: backends/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 backends/imgui_impl_opengl3.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.s
 .PHONY : backends/imgui_impl_opengl3.cpp.s
 
 imgui.o: imgui.cpp.o
@@ -207,7 +207,7 @@ imgui.o: imgui.cpp.o
 
 # target to build an object file
 imgui.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
 .PHONY : imgui.cpp.o
 
 imgui.i: imgui.cpp.i
@@ -216,7 +216,7 @@ imgui.i: imgui.cpp.i
 
 # target to preprocess a source file
 imgui.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.i
 .PHONY : imgui.cpp.i
 
 imgui.s: imgui.cpp.s
@@ -225,7 +225,7 @@ imgui.s: imgui.cpp.s
 
 # target to generate assembly for a file
 imgui.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
 .PHONY : imgui.cpp.s
 
 imgui_demo.o: imgui_demo.cpp.o
@@ -234,7 +234,7 @@ imgui_demo.o: imgui_demo.cpp.o
 
 # target to build an object file
 imgui_demo.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
 .PHONY : imgui_demo.cpp.o
 
 imgui_demo.i: imgui_demo.cpp.i
@@ -243,7 +243,7 @@ imgui_demo.i: imgui_demo.cpp.i
 
 # target to preprocess a source file
 imgui_demo.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i
 .PHONY : imgui_demo.cpp.i
 
 imgui_demo.s: imgui_demo.cpp.s
@@ -252,7 +252,7 @@ imgui_demo.s: imgui_demo.cpp.s
 
 # target to generate assembly for a file
 imgui_demo.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s
 .PHONY : imgui_demo.cpp.s
 
 imgui_draw.o: imgui_draw.cpp.o
@@ -261,7 +261,7 @@ imgui_draw.o: imgui_draw.cpp.o
 
 # target to build an object file
 imgui_draw.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
 .PHONY : imgui_draw.cpp.o
 
 imgui_draw.i: imgui_draw.cpp.i
@@ -270,7 +270,7 @@ imgui_draw.i: imgui_draw.cpp.i
 
 # target to preprocess a source file
 imgui_draw.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i
 .PHONY : imgui_draw.cpp.i
 
 imgui_draw.s: imgui_draw.cpp.s
@@ -279,7 +279,7 @@ imgui_draw.s: imgui_draw.cpp.s
 
 # target to generate assembly for a file
 imgui_draw.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s
 .PHONY : imgui_draw.cpp.s
 
 imgui_tables.o: imgui_tables.cpp.o
@@ -288,7 +288,7 @@ imgui_tables.o: imgui_tables.cpp.o
 
 # target to build an object file
 imgui_tables.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o
 .PHONY : imgui_tables.cpp.o
 
 imgui_tables.i: imgui_tables.cpp.i
@@ -297,7 +297,7 @@ imgui_tables.i: imgui_tables.cpp.i
 
 # target to preprocess a source file
 imgui_tables.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.i
 .PHONY : imgui_tables.cpp.i
 
 imgui_tables.s: imgui_tables.cpp.s
@@ -306,7 +306,7 @@ imgui_tables.s: imgui_tables.cpp.s
 
 # target to generate assembly for a file
 imgui_tables.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.s
 .PHONY : imgui_tables.cpp.s
 
 imgui_widgets.o: imgui_widgets.cpp.o
@@ -315,7 +315,7 @@ imgui_widgets.o: imgui_widgets.cpp.o
 
 # target to build an object file
 imgui_widgets.cpp.o:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
 .PHONY : imgui_widgets.cpp.o
 
 imgui_widgets.i: imgui_widgets.cpp.i
@@ -324,7 +324,7 @@ imgui_widgets.i: imgui_widgets.cpp.i
 
 # target to preprocess a source file
 imgui_widgets.cpp.i:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i
 .PHONY : imgui_widgets.cpp.i
 
 imgui_widgets.s: imgui_widgets.cpp.s
@@ -333,7 +333,7 @@ imgui_widgets.s: imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 imgui_widgets.cpp.s:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s
+	cd /home/luis/Hazel/build && $(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imgui.dir/build.make Hazel/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s
 .PHONY : imgui_widgets.cpp.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luis/Documents/vscode_projects/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luis/Hazel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

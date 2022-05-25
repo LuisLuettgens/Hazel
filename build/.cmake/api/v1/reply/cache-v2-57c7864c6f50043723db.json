@@ -2,34 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "BUILD_TESTING",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build the testing tree."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "BZRCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "BZRCOMMAND-NOTFOUND"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -43,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/addr2line"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -59,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/ar"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -67,11 +39,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose Release or Debug"
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -83,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build"
+			"value" : "/home/luis/Hazel/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -183,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/x86_64-linux-gnu-g++-9"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -203,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/gcc-ar-9"
+			"value" : "/usr/bin/gcc-ar-9"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -219,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/gcc-ranlib-9"
+			"value" : "/usr/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -311,11 +283,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/x86_64-linux-gnu-gcc-9"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -331,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/gcc-ar-9"
+			"value" : "/usr/bin/gcc-ar-9"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -347,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/gcc-ranlib-9"
+			"value" : "/usr/bin/gcc-ranlib-9"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -547,11 +519,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : "OFF"
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -671,7 +643,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel"
+			"value" : "/home/luis/Hazel"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -967,7 +939,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/ld"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -1079,7 +1051,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/nm"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1107,7 +1079,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/objcopy"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1123,7 +1095,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/objdump"
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1247,7 +1219,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/ranlib"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1263,7 +1235,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/readelf"
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1483,7 +1455,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/bin/strip"
+			"value" : "/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1514,374 +1486,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "COVERAGE_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the coverage program that CTest uses for performing coverage inspection"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcov"
-		},
-		{
-			"name" : "COVERAGE_EXTRA_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Extra command line flags to pass to the coverage tool"
-				}
-			],
-			"type" : "STRING",
-			"value" : "-l"
-		},
-		{
-			"name" : "CPACK_BINARY_DEB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build Debian packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_FREEBSD",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build FreeBSD packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_IFW",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build IFW packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_NSIS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build NSIS packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_RPM",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build RPM packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_STGZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build STGZ packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_BINARY_TBZ2",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TBZ2 packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_TGZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TGZ packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_BINARY_TXZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TXZ packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_TZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TZ packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_SOURCE_RPM",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build RPM source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_SOURCE_TBZ2",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TBZ2 source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_SOURCE_TGZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TGZ source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_SOURCE_TXZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TXZ source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_SOURCE_TZ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build TZ source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_SOURCE_ZIP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build ZIP source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CTEST_SUBMIT_RETRY_COUNT",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "How many times to retry timed-out CTest submissions."
-				}
-			],
-			"type" : "STRING",
-			"value" : "3"
-		},
-		{
-			"name" : "CTEST_SUBMIT_RETRY_DELAY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "How long to wait between timed-out CTest submissions."
-				}
-			],
-			"type" : "STRING",
-			"value" : "5"
-		},
-		{
-			"name" : "CVSCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/cvs"
-		},
-		{
-			"name" : "CVS_UPDATE_OPTIONS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Options passed to the cvs update command."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-d -A -P"
-		},
-		{
-			"name" : "DART_TESTING_TIMEOUT",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Maximum time allowed before CTest will kill the test."
-				}
-			],
-			"type" : "STRING",
-			"value" : "1500"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
@@ -1894,22 +1498,6 @@
 			"value" : "[TRUE][v()]"
 		},
 		{
-			"name" : "GITCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/git"
-		},
-		{
 			"name" : "Glad_BINARY_DIR",
 			"properties" : 
 			[
@@ -1919,7 +1507,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/GLAD/src"
+			"value" : "/home/luis/Hazel/build/Hazel/vendor/GLAD/src"
 		},
 		{
 			"name" : "Glad_SOURCE_DIR",
@@ -1931,23 +1519,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/GLAD/src"
-		},
-		{
-			"name" : "HGCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "HGCOMMAND-NOTFOUND"
+			"value" : "/home/luis/Hazel/Hazel/vendor/GLAD/src"
 		},
 		{
 			"name" : "HazelLib_LIB_DEPENDS",
@@ -1959,31 +1531,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;glfw;general;glad;general;imgui;general;dl;general;GL;general;pthread;"
-		},
-		{
-			"name" : "HazelLibrary_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/src/Hazel"
-		},
-		{
-			"name" : "HazelLibrary_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/src/Hazel"
+			"value" : "general;glfw;general;glad;general;/home/luis/Hazel/build/Hazel/vendor/imgui/libimgui.a;general;dl;general;GL;general;pthread;"
 		},
 		{
 			"name" : "Hazel_BINARY_DIR",
@@ -1995,7 +1543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build"
+			"value" : "/home/luis/Hazel/build"
 		},
 		{
 			"name" : "Hazel_SOURCE_DIR",
@@ -2007,119 +1555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel"
-		},
-		{
-			"name" : "MAKECOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Command to build the project"
-				}
-			],
-			"type" : "STRING",
-			"value" : "/usr/bin/cmake --build . --config \"${CTEST_CONFIGURATION_TYPE}\" -- -i"
-		},
-		{
-			"name" : "MEMORYCHECK_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the memory checking command, used for memory error detection."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "MEMORYCHECK_COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "MEMORYCHECK_SUPPRESSIONS_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "File that contains suppressions for the memory checker"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : ""
-		},
-		{
-			"name" : "P4COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "P4COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "SITE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Name of the computer/site where compile is being run"
-				}
-			],
-			"type" : "STRING",
-			"value" : "luis-ThinkPad-X250"
-		},
-		{
-			"name" : "SLURM_SBATCH_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the SLURM sbatch executable"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SLURM_SBATCH_COMMAND-NOTFOUND"
-		},
-		{
-			"name" : "SLURM_SRUN_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the SLURM srun executable"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SLURM_SRUN_COMMAND-NOTFOUND"
+			"value" : "/home/luis/Hazel"
 		},
 		{
 			"name" : "SPDLOG_BUILD_ALL",
@@ -2410,22 +1846,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "SVNCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SVNCOMMAND-NOTFOUND"
-		},
-		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
 			"properties" : 
 			[
@@ -2438,30 +1858,6 @@
 			"value" : "/usr/local"
 		},
 		{
-			"name" : "cmakequickstart_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build"
-		},
-		{
-			"name" : "cmakequickstart_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel"
-		},
-		{
 			"name" : "imgui_BINARY_DIR",
 			"properties" : 
 			[
@@ -2471,7 +1867,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/imgui"
+			"value" : "/home/luis/Hazel/build/Hazel/vendor/imgui"
 		},
 		{
 			"name" : "imgui_SOURCE_DIR",
@@ -2483,7 +1879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/imgui"
+			"value" : "/home/luis/Hazel/Hazel/vendor/imgui"
 		},
 		{
 			"name" : "spdlog_BINARY_DIR",
@@ -2495,7 +1891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/build/Hazel/vendor/spdlog"
+			"value" : "/home/luis/Hazel/build/Hazel/vendor/spdlog"
 		},
 		{
 			"name" : "spdlog_SOURCE_DIR",
@@ -2507,7 +1903,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/luis/Documents/vscode_projects/Hazel/Hazel/vendor/spdlog"
+			"value" : "/home/luis/Hazel/Hazel/vendor/spdlog"
 		}
 	],
 	"kind" : "cache",
